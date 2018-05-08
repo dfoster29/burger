@@ -24,7 +24,6 @@ var orm = {
       {
         burger_name: burger_name,
         devoured: false,
-        date: timestamp
       },
       function(err, result) {
         if (err) throw err;
